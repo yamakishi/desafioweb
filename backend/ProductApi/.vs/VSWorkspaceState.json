@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\Data",
+    "\\DTOs",
+    "\\Entities",
+    "\\Interfaces",
+    "\\Middlewares",
+    "\\Repositories",
+    "\\Services",
+    "\\Services\\Validations"
+  ],
+  "SelectedNode": "\\Middlewares\\ErrorMiddleware.cs",
+  "PreviewInSolutionExplorer": false
+}
