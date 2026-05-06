@@ -1,0 +1,46 @@
+# ======================
+# .NET / Backend
+# ======================
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Banco de dados
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# ======================
+# Node / Frontend
+# ======================
+node_modules/
+dist/
+build/
+
+# Vite cache
+node_modules/.vite
+
+# ======================
+# Ambiente
+# ======================
+.env
+.env.*
+!.env.example
+
+# ======================
+# Sistema
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# IDEs
+# ======================
+.vscode/*
+!.vscode/extensions.json
+.idea/
