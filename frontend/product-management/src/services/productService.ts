@@ -11,12 +11,10 @@ export const productService = {
     const response = await api.get<ApiResponse<PaginatedData<Product>>>(
       "/Products",
       {
-        // Note: /Products com P maiúsculo
         params: { page, pageSize },
       },
     );
 
-    // Adaptar a resposta para o formato que o frontend espera
     const paginatedData = response.data.data;
     return {
       items: paginatedData.data,
